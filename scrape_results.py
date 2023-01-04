@@ -11,7 +11,7 @@ class Command(BaseCommand):
     def handle(self,*args, **kwargs):
      urls=self.construct_urls()
      k=1
-           #you need to install pandas et selenuim  
+           #you need to install pandas and selenuim  
            #link to download your chromedriver:
            #https://chromedriver.chromium.org/downloads
            #download the same  versoin of your  chrome
